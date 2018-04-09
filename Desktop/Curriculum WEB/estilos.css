@@ -1,0 +1,31 @@
+body{
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section:nth-of-type(1){
+    background-color: #3F3938;
+    margin: 20px 20px 20px 20px;
+}
+#perfil{
+    margin-left: 250px;
+    margin-top: -175px;
+
+}
+h1:nth-of-type(1){
+    color: white;
+    margin: 0;
+    font-size: 3em;
+    font-family: Autumn;
+}
+h7{
+    color:blue ;
+    font-family: Autumn;
+    font-size: 2em;
+    margin: 0;
+}
+#datos_personales{
+    text-align: left;
+    font-family: "Good Times";
+
+}

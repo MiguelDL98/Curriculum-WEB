@@ -33,7 +33,7 @@ section:nth-of-type(2){
 #titulos:hover{
     background-color: red;
 }
-ul{
+ul:nth-of-type(1){
     list-style-type: circle;
     text-align: center;
 }
@@ -55,4 +55,31 @@ td{
 section:nth-of-type(4)>p{
     margin-left: 330px;
     margin-right: 325px;
+}
+section:nth-of-type(5)>p{
+    margin-left: 330px;
+    margin-right: 325px;
+    text-align: center;
+}
+section:nth-of-type(5)>p:last-of-type{
+    text-decoration: underline;
+}
+ul:nth-of-type(2){
+    text-align: center;
+    list-style:none
+}
+li>strong {
+    color: red;
+    margin-left: -110px;
+}
+li{
+    list-style: none;
+}
+#social{
+    max-width: 55%;
+    height: auto;
+    margin: 20px;
+    padding: 5px;
+    display: block;
+    margin: auto;
 }

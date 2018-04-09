@@ -1,18 +1,58 @@
 body{
     background-image: url("img/fondocolores.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1700px;
     color: white;
-    font-family: Autumn;
+    font-family: Commons;
 }
 img{
-    margin-left: 720px;
+    margin-left: 740px;
 
 }
 h1:first-of-type {
- margin-bottom: -15px;
+ margin-bottom: -60px;
+    font-size: 3em;
 }
 
 h3:first-of-type{
     color: yellow;
+    font-size: 2em;
+}
+section:nth-of-type(2){
+    text-align: center;
+    border-bottom: 3px solid white;
+    margin-left: 325px;
+    margin-right: 325px;
+}
+#titulos{
+    font-size: 2em;
+    margin-left: 650px;
+    margin-right: 650px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+#titulos:hover{
+    background-color: red;
+}
+ul{
+    list-style-type: circle;
+    text-align: center;
+}
+li>strong{
+    padding-left: 100px;
+}
+table{
+    width: 500px;
+    margin: auto;
+    border: 3px solid white;
+    border-spacing: 20px;
+}
+tr>td:first-child{
+    text-decoration: underline;
+}
+td{
+    border-bottom: 1px dashed white;
+}
+section:nth-of-type(4)>p{
+    margin-left: 330px;
+    margin-right: 325px;
 }
